@@ -1,0 +1,28 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "My First Backend Project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Backend/src/index.js",
+    "dev": "nodemon Backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nk0045/Intro-to-Backend.git"
+  },
+  "author": "NandaKumar J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nk0045/Intro-to-Backend/issues"
+  },
+  "homepage": "https://github.com/nk0045/Intro-to-Backend#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.4",
+    "nodemon": "^3.1.14"
+  }
+}
